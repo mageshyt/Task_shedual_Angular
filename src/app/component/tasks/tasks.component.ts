@@ -18,4 +18,12 @@ export class TasksComponent implements OnInit {
       this.tasks = tasks;
     });
   }
+  deleteTask(task: any) {
+    this.taskService.deleteTask(task).subscribe(() => {
+      this.tasks = this.tasks.filter((t) => t.id !== task.id);
+    });
+  }
+  AddReminder(task: any) {
+    this.taskService.updateReminder(task).subscribe(() => {});
+  }
 }
