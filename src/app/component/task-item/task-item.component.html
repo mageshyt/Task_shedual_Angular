@@ -1,0 +1,11 @@
+<div
+  class="bg-gray-100 my-2 p-2 transform transition-all cursor-pointer ease-in duration-150 hover:scale-110"
+>
+  <h2 class="flex flex-row justify-between">
+    {{ task?.text }}
+    <fa-icon class="mr-4 font-bold text-red-500" [icon]="faTimes"></fa-icon>
+  </h2>
+  <h2>
+    {{ task?.day }}
+  </h2>
+</div>
