@@ -22,7 +22,7 @@
       "id": 4,
       "text": "Finish Leetcode problem day 221",
       "day": "Aug 9th",
-      "reminder": true
+      "reminder": false
     }
   ]
 }
