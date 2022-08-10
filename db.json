@@ -4,7 +4,7 @@
       "id": 1,
       "text": "Wish happy birthday to john",
       "day": "May 3th at 12:00AM",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
@@ -16,13 +16,13 @@
       "id": 3,
       "text": "Food ",
       "day": "May 7th at 12:30pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
       "text": "Finish Leetcode problem day 221",
       "day": "Aug 9th",
-      "reminder": false
+      "reminder": true
     }
   ]
 }
