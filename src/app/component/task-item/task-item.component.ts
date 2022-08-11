@@ -1,6 +1,7 @@
 import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { Task } from 'src/typing';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-task-item',
@@ -13,12 +14,13 @@ export class TaskItemComponent implements OnInit {
   @Output() SetReminder = new EventEmitter<Task>();
   faTimes = faTimes;
   reminder = 'border-l-3 border-green-500';
-  constructor() {}
+  constructor(private toast: ToastrService) {}
 
   ngOnInit(): void {}
 
   OnDeleteTask(task: Task | undefined) {
     this.delete.emit(task);
+    this.toast.success('Task Deleted Successfully');
   }
 
   OnAddReminder(task: Task | undefined) {

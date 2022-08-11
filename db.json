@@ -7,22 +7,10 @@
       "reminder": true
     },
     {
-      "id": 2,
-      "text": "Wish happy birthday to my friend",
-      "day": "jan 12th at 12:00AM",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Food ",
-      "day": "May 7th at 12:30pm",
-      "reminder": true
-    },
-    {
-      "id": 4,
-      "text": "Finish Leetcode problem day 221",
-      "day": "Aug 9th",
-      "reminder": false
+      "text": "Whish Hemath Birthday ",
+      "day": "May 25 ",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

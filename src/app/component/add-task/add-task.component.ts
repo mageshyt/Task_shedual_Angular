@@ -36,7 +36,7 @@ export class AddTaskComponent implements OnInit {
     this.day = '';
     this.reminder = false;
     this.onAddTask.emit(newTask);
-
+    //! after emitting the show success message
     this.showSuccess();
   }
   showSuccess() {
